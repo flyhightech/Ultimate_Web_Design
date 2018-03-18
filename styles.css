@@ -17,23 +17,31 @@ body {
 .container {
     margin: 0 auto;
     width: 500px;
-
 }
 
 header {
-
     background: yellow;
     color: red;
     padding: 10px;
     text-align: center;
 }
 
-
-
 .post-head small {
-
     border-bottom: solid 10px #eee;
     color: blue;
     display: block;
     margin: 0 0 20px;
+}
+
+.post-foot {
+    border-top: solid 1px #eee;
+    font-size: 14px;
+    margin: 20px 0 0;
+    padding: 20px 0 0;
+}
+
+footer {
+    color: #aaa;
+    font-size: 14px;
+    text-align: center;
 }
