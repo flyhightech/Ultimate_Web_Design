@@ -19,5 +19,22 @@ body {
 }
 
 input[type="text"] {
-    width: 566px;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 15px 0 15px;
+    width: 100%;
+}
+
+input[type="text"]:hover {
+    border-color: #aaa;
+}
+
+input[type="submit"] {
+
+    background: #ccc;
+    border: solid 1px #aaa;
+    color: #777;
+    padding: 7px;
+
+
 }
