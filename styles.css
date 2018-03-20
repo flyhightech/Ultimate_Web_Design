@@ -49,15 +49,18 @@ input[type="submit"]:hover {
     text-align: right;
 }
 
-/*.header ul li a:link {}*/
+a:link {
+    color: blue;
+    text-decoration: none;
+}
 
-nav .header ul li a:visited {
+a:visited {
     color: #555;
     padding: 10px;
     text-decoration: none;
 }
 
-.header ul li a:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -67,7 +70,9 @@ nav ul li {
 
 footer {
     background: #eee;
-    padding: 20px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 footer nav ul li {
