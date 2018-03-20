@@ -3,10 +3,21 @@ body {
     font-size: 12px;
 }
 
+.container {
+
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+}
+
 .logo {
     background: url("images/download.png") top left no-repeat;
     background-size: 100%;
     height: 150px;
+    margin: 0 auto;
     width: 269px;
+}
 
+input[type="text"] {
+    width: 566px;
 }
